@@ -1,0 +1,50 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#banner-title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 86px;
+}
+
+@media only screen and (max-width:576px) {
+  #banner-title {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  #chef-section-margin {
+    margin-bottom: 80px !important;
+  }
+
+  #recipe-section {
+    margin-bottom: 80px !important;
+  }
+  #news-letter-section-1{
+    height: 200px !important;
+  }
+  #news-letter-section-2 {
+    font-size: small;
+    text-align: center;
+  }
+  #news-letter-section-2 h3{
+      font-size: large;
+  }
+  #news-letter-section-2 input{
+    padding: 10px 0 !important;
+    padding-left: 15px !important;
+    width: 200px !important;
+  }
+  #news-letter-section-2 button{
+    height: 41px !important;
+    width: 100px !important;
+    font-size: small !important;
+  }
+  #news-letter-section{
+    margin-bottom: 100px !important;
+  }
+}
